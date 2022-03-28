@@ -5,8 +5,7 @@ const TelegramBot = require("node-telegram-bot-api");
 // const token = "5109605505:AAGygDPajztH1QGF0vAJMVcKMYCap2IkIUs";
 const token ='5122663047:AAHwaxa7uKnoj148zzOG4bDm9y7JimWUCYY'
 
-var elizabot = require("./elizabot.js");
-elizabot.start();
+
 
 // Create a bot that uses 'polling' to fetch new updates
 const bot = new TelegramBot(token, { polling: true });
